@@ -124,6 +124,10 @@
     font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em;
     color: var(--ink-soft); white-space: nowrap; margin-top: 4px;
   }
+  @media (max-width: 480px) {
+    .card-head { flex-direction: column; gap: 4px; }
+    .card-head .tag { white-space: normal; }
+  }
 
   .stat-row { display: flex; gap: 28px; flex-wrap: wrap; }
   .stat .num { font-family: "Faustina", Georgia, serif; font-size: 38px; font-weight: 600; line-height: 1; color: var(--navy-ink); }
@@ -189,12 +193,12 @@
       <div class="sub">Live interest tracking, built by Luminate Agency</div>
     </div>
     <div class="asof">
-      <span class="live-chip"><span class="pulse"></span>Ad data auto-refreshes weekly, Sundays</span>
+      <span class="live-chip"><span class="pulse"></span>Auto-refresh setup in progress</span>
       <!-- ASOF_START -->
-      <div>Leads (6-hr)<strong>Aug 22, 2026, 2:16 PM ET</strong></div>
+      <div>Leads (6-hr)<strong>Aug 23, 2026, 9:20 PM ET</strong></div>
       <!-- ASOF_END -->
       <!-- ASOF_DAILY_START -->
-      <div>Ad data (daily)<strong>Aug 23, 2026, 9:00 AM ET</strong></div>
+      <div>Ad data (daily)<strong>Aug 23, 2026, 9:20 PM ET</strong></div>
       <!-- ASOF_DAILY_END -->
     </div>
   </header>
@@ -212,11 +216,11 @@
 
         <div class="stat-row">
           <div class="stat">
-            <div class="num">$2,051</div>
-            <div class="label">spent so far, Facebook + Google</div>
+            <div class="num">$2,102</div>
+            <div class="label">spent so far, Meta + Google</div>
           </div>
           <div class="stat">
-            <div class="num">$7,949</div>
+            <div class="num">$7,898</div>
             <div class="label">left of the $10,000 budget</div>
           </div>
           <div class="stat">
@@ -224,45 +228,50 @@
             <div class="label">of total budget used</div>
           </div>
           <div class="stat">
-            <div class="num">$12.28</div>
+            <div class="num">$10.89</div>
             <div class="label">blended cost per lead</div>
           </div>
         </div>
 
         <div>
           <div class="budget-bar"><div class="budget-bar-fill" style="width:21%;"></div></div>
-          <div class="budget-caption"><span><strong>$2,050.75</strong> spent</span><span><strong>$7,949.25</strong> remaining of $10,000</span></div>
+          <div class="budget-caption"><span><strong>$2,102.05</strong> spent</span><span><strong>$7,897.95</strong> remaining of $10,000</span></div>
         </div>
 
         <div class="split">
           <div>
-            <h3>Facebook / Meta</h3>
+            <h3>Meta (Facebook + Instagram)</h3>
             <div class="bars">
               <div class="bar-row"><span class="name">Spend</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">$1,667</span></div>
-              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:19%; background: var(--gold);"></span></span><span class="count">$17.61</span></div>
-              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:55%; background: var(--gold);"></span></span><span class="count">$1.12</span></div>
-              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:95%; background: var(--gold);"></span></span><span class="count">$12.16</span></div>
+              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:19%; background: var(--gold);"></span></span><span class="count">$17.62</span></div>
+              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:11%; background: var(--gold);"></span></span><span class="count">$1.12</span></div>
+              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:11%; background: var(--gold);"></span></span><span class="count">$10.55</span></div>
             </div>
           </div>
           <div>
             <h3>Google Search</h3>
             <div class="bars">
-              <div class="bar-row"><span class="name">Spend</span><span class="bar-track"><span class="bar-fill" style="width:23%; background: var(--navy);"></span></span><span class="count">$384</span></div>
-              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--navy);"></span></span><span class="count">$91.79</span></div>
-              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--navy);"></span></span><span class="count">$2.04</span></div>
-              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--navy);"></span></span><span class="count">$12.81</span></div>
+              <div class="bar-row"><span class="name">Spend</span><span class="bar-track"><span class="bar-fill" style="width:26%; background: var(--navy);"></span></span><span class="count">$436</span></div>
+              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--navy);"></span></span><span class="count">$93.81</span></div>
+              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:20%; background: var(--navy);"></span></span><span class="count">$2.02</span></div>
+              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:12%; background: var(--navy);"></span></span><span class="count">$12.44</span></div>
             </div>
           </div>
         </div>
 
         <div class="callout">
+          <span>&#128172;</span>
+          <span><strong>Quick translator, since these terms come up a lot:</strong> CPM is what it costs to put the ad in front of 1,000 people. CPC is what it costs each time someone clicks it. Neither one tells you if the campaign is working. Cost per lead is the number that matters, since it's what U Prep actually pays for each real family that reaches out.</span>
+        </div>
+
+        <div class="callout">
           <span>&#8505;</span>
-          <span>Facebook drives 137 leads on $1,667 in spend. Google drives 30 conversions on $384, off two keywords, detailed in the Google Ads Performance section below. Facebook is the cheaper channel per lead right now, but it's also spending 4.3x more, so it's naturally producing more volume too.</span>
+          <span>Meta drives 158 leads on $1,667 in spend (about $10.55 per lead). Google drives 35 form starts on $436, off two keywords, detailed in the Google Ads Performance section below. Meta is the cheaper channel per lead right now, but it's also spending nearly 4x more, so it's naturally producing more volume too.</span>
         </div>
 
         <div class="callout">
           <span>&#9888;</span>
-          <span>The $10,000 budget is paced to spend fully by Oct 7 (Fall Count Day, the state funding deadline), not evenly. Through Aug 22, the pacing plan calls for about $3,114 spent; actual spend sits at $2,051, roughly $1,064 behind schedule. Both campaigns launch about 10 days later than the planned July 29 start (Meta goes live Aug 8, Google Aug 11), which explains most of the gap.</span>
+          <span>The $10,000 budget is paced to spend fully by Oct 7 (Fall Count Day, the state funding deadline), not evenly. Through Aug 23, the pacing plan (from the official spend schedule) calls for about $3,250 spent; actual spend sits at $2,102, roughly $1,148 behind schedule. Both campaigns launched about 10 days later than the planned July 29 start, confirmed by each platform's own daily spend history: Meta's first real dollar was spent Aug 8, Google's Aug 11. That gap explains most of the shortfall.</span>
         </div>
       </div>
     </section>
@@ -277,15 +286,15 @@
 
         <div class="stat-row">
           <div class="stat">
-            <div class="num">188</div>
-            <div class="label">clicks, 4,186 impressions</div>
+            <div class="num">216</div>
+            <div class="label">clicks, 4,643 impressions</div>
           </div>
           <div class="stat">
-            <div class="num">4.5%</div>
+            <div class="num">4.7%</div>
             <div class="label">click-through rate</div>
           </div>
           <div class="stat">
-            <div class="num">30</div>
+            <div class="num">35</div>
             <div class="label">conversions (form starts)</div>
           </div>
           <div class="stat">
@@ -309,12 +318,12 @@
 
         <div class="callout">
           <span>&#9888;</span>
-          <span>Google is only showing these ads for about <strong>10.9% of the searches it's eligible for</strong>, and roughly 38.9 percentage points of the missing share is specifically because of budget, not ranking, a wider gap than last week. Raising the daily budget on this campaign would likely capture more of that missed traffic.</span>
+          <span>Google is only showing these ads for about <strong>10.9% of the searches it's eligible for</strong>, and about 38.9 percentage points of the missing share is specifically because of budget, not ranking. Raising the daily budget on this campaign would likely capture more of that missed traffic.</span>
         </div>
 
         <div class="callout">
           <span>&#8505;</span>
-          <span>This only covers paid search clicks. It can't yet see organic search, direct visits, or social traffic hitting the U Prep website. For that fuller picture, Google Analytics (GA4) would need to be connected. In the meantime, the Interest Form Submissions panel below already tracks a self-reported source field from the campus form itself, which currently credits Google with 9 submissions.</span>
+          <span>This only covers paid search clicks. The fuller picture comes from Google Analytics (GA4), which is connected to the U Prep site: from campaign launch through Aug 23, the site logged 12,266 sessions total, but only 169 of those came from a paid Google Ads click and 54 came from a paid Meta ad click. Most traffic (7,741 sessions) is organic search, people finding U Prep on their own. That's normal, and it's a separate number from ad clicks. In the meantime, the Interest Form Submissions panel below already tracks a self-reported source field from the campus form itself, which currently credits Google with 9 submissions.</span>
         </div>
       </div>
     </section>
@@ -326,16 +335,16 @@
       <div class="card-body">
         <div class="card-head">
           <h2>Enrollment Leads</h2>
-          <div class="tag">Facebook Lead Ads</div>
+          <div class="tag">Meta Lead Ads</div>
         </div>
 
         <div class="stat-row">
           <div class="stat">
-            <div class="num">153</div>
+            <div class="num">158</div>
             <div class="label">total leads, Pathway Awareness form</div>
           </div>
           <div class="stat">
-            <div class="num">5</div>
+            <div class="num">9</div>
             <div class="label">came in today</div>
           </div>
           <div class="stat">
@@ -343,25 +352,30 @@
             <div class="label">came in yesterday</div>
           </div>
           <div class="stat">
-            <div class="num">53</div>
+            <div class="num">52</div>
             <div class="label">came in last 7 days</div>
           </div>
         </div>
 
         <div class="bars">
-          <div class="bar-row"><span class="name">Art &amp; Design</span><span class="bar-track"><span class="bar-fill" style="width:64%; background: var(--gold);"></span></span><span class="count">34</span></div>
-          <div class="bar-row"><span class="name">Not sure yet</span><span class="bar-track"><span class="bar-fill" style="width:47%; background: var(--gold);"></span></span><span class="count">25</span></div>
-          <div class="bar-row"><span class="name">Academy</span><span class="bar-track"><span class="bar-fill" style="width:41%; background: var(--gold);"></span></span><span class="count">22</span></div>
-          <div class="bar-row"><span class="name">Science &amp; Math</span><span class="bar-track"><span class="bar-fill" style="width:36%; background: var(--gold);"></span></span><span class="count">19</span></div>
-          <div class="bar-row"><span class="name">Unspecified</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">53</span></div>
+          <div class="bar-row"><span class="name">Art &amp; Design</span><span class="bar-track"><span class="bar-fill" style="width:59%; background: var(--gold);"></span></span><span class="count">34</span></div>
+          <div class="bar-row"><span class="name">Not sure yet</span><span class="bar-track"><span class="bar-fill" style="width:45%; background: var(--gold);"></span></span><span class="count">26</span></div>
+          <div class="bar-row"><span class="name">Academy</span><span class="bar-track"><span class="bar-fill" style="width:38%; background: var(--gold);"></span></span><span class="count">22</span></div>
+          <div class="bar-row"><span class="name">Science &amp; Math</span><span class="bar-track"><span class="bar-fill" style="width:31%; background: var(--gold);"></span></span><span class="count">18</span></div>
+          <div class="bar-row"><span class="name">Unspecified</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">58</span></div>
         </div>
 
         <div class="list">
-          <div class="row"><div><div class="who">Brittney Michelle</div><div class="meta">Science &amp; Math pathway</div></div><div class="when">Aug 22, 11:50 AM</div></div>
-          <div class="row"><div><div class="who">Joe Johnson</div><div class="meta">Academy pathway</div></div><div class="when">Aug 22, 10:50 AM</div></div>
-          <div class="row"><div><div class="who">Melanie Henderson</div><div class="meta">Academy pathway</div></div><div class="when">Aug 22, 8:01 AM</div></div>
-          <div class="row"><div><div class="who">Catherine Pearson</div><div class="meta">Pathway not specified</div></div><div class="when">Aug 22, 7:03 AM</div></div>
-          <div class="row"><div><div class="who">Robert Penrose</div><div class="meta">Pathway not specified</div></div><div class="when">Aug 22, 2:50 AM</div></div>
+          <div class="row"><div><div class="who">Tasha Riley</div><div class="meta">Academy pathway</div></div><div class="when">Aug 23, 8:10 PM</div></div>
+          <div class="row"><div><div class="who">LaQueena Taylor</div><div class="meta">Pathway not specified</div></div><div class="when">Aug 23, 7:24 PM</div></div>
+          <div class="row"><div><div class="who">Andrew J Westhoven</div><div class="meta">Pathway not specified</div></div><div class="when">Aug 23, 7:04 PM</div></div>
+          <div class="row"><div><div class="who">Athelene Malone Warren</div><div class="meta">Pathway not specified</div></div><div class="when">Aug 23, 5:47 PM</div></div>
+          <div class="row"><div><div class="who">Jackie Moore</div><div class="meta">Art &amp; Design pathway</div></div><div class="when">Aug 23, 3:18 PM</div></div>
+        </div>
+
+        <div class="callout">
+          <span>&#128241;</span>
+          <span>19 of these 158 leads (about 12%) came in through Instagram, not Facebook. That's why this panel says "Meta" now instead of "Facebook." Meta's own ad tool recommends putting more budget behind Instagram Feed and Instagram Stories specifically, since both are already running efficiently.</span>
         </div>
       </div>
     </section>
@@ -428,7 +442,7 @@
 
         <div class="callout">
           <span>&#128279;</span>
-          <span><strong>6 families show up in both channels.</strong> Each one appears on both the Facebook lead form and the campus interest form. Counting everyone once, Facebook and the campus form together reach <strong>172 unique families</strong>, not 189. The matches come from parent email: Samantha Boykins, Tina Jordan, Salina Hayes, Kaella Winn, Nakia Cody, and Antonia Foster/Mathews all appear on both.</span>
+          <span><strong>6 families show up in both channels.</strong> Each one appears on both the Meta lead form and the campus interest form. Counting everyone once, Meta and the campus form together reach <strong>172 unique families</strong>, not 189. The matches come from parent email: Samantha Boykins, Tina Jordan, Salina Hayes, Kaella Winn, Nakia Cody, and Antonia Foster/Mathews all appear on both. (This match was run against the last lead count snapshot; it hasn't been re-run against today's fresh pull.)</span>
         </div>
 
         <div class="callout">
@@ -448,23 +462,23 @@
 
         <div class="split tri">
           <div>
-            <h3>Facebook cost / lead</h3>
+            <h3>Meta cost / lead</h3>
             <div class="bars">
-              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:55%; background: var(--gold);"></span></span><span class="count">$11.63</span></div>
+              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:50%; background: var(--gold);"></span></span><span class="count">$10.55</span></div>
               <div class="bar-row"><span class="name">Industry avg</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--ink-soft);"></span></span><span class="count">$21.31</span></div>
             </div>
           </div>
           <div>
-            <h3>Facebook CPM</h3>
+            <h3>Meta CPM</h3>
             <div class="bars">
-              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">$17.31</span></div>
-              <div class="bar-row"><span class="name">Industry avg</span><span class="bar-track"><span class="bar-fill" style="width:94%; background: var(--ink-soft);"></span></span><span class="count">$16.26</span></div>
+              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">$17.62</span></div>
+              <div class="bar-row"><span class="name">Industry avg</span><span class="bar-track"><span class="bar-fill" style="width:92%; background: var(--ink-soft);"></span></span><span class="count">$16.26</span></div>
             </div>
           </div>
           <div>
             <h3>Google CPC</h3>
             <div class="bars">
-              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:43%; background: var(--navy);"></span></span><span class="count">$2.08</span></div>
+              <div class="bar-row"><span class="name">U Prep</span><span class="bar-track"><span class="bar-fill" style="width:42%; background: var(--navy);"></span></span><span class="count">$2.02</span></div>
               <div class="bar-row"><span class="name">Industry avg</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--ink-soft);"></span></span><span class="count">$4.81</span></div>
             </div>
           </div>
@@ -472,7 +486,7 @@
 
         <div class="callout">
           <span>&#127942;</span>
-          <span><strong>U Prep is beating the education industry on cost.</strong> Facebook leads cost 45% less than the typical education advertiser ($11.63 vs. $21.31). Google clicks cost 57% less ($2.08 vs. $4.81). Facebook CPM is close to average, just a touch above it. These are national benchmarks across all education advertisers, not just charter schools, since no charter-specific figures are available.</span>
+          <span><strong>U Prep is beating the education industry on cost.</strong> Meta leads cost about 50% less than the typical education advertiser ($10.55 vs. $21.31). Google clicks cost 58% less ($2.02 vs. $4.81). Meta's CPM is a touch above average, but the cost per lead more than makes up for it. These are national benchmarks across all education advertisers, not just charter schools, since no charter-specific figures are available.</span>
         </div>
 
         <div class="callout">
@@ -482,17 +496,52 @@
       </div>
     </section>
 
+    <section class="card">
+      <div class="stripe navy"></div>
+      <div class="card-body">
+        <div class="card-head">
+          <h2>What This Means, What's Next</h2>
+          <div class="tag">Insights, updated with this pull</div>
+        </div>
+
+        <div class="callout">
+          <span>&#127909;</span>
+          <span><strong>Instagram is real, not a side experiment.</strong> 19 of 158 leads (about 12%) came through Instagram. Meta's own optimization tool recommends shifting more budget into Instagram Feed and Instagram Stories specifically, since both are already running efficiently. Next step: approve a modest Instagram budget bump.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#128200;</span>
+          <span><strong>Spend is behind the plan, and Fall Count Day is the deadline.</strong> Through Aug 23, the official pacing plan called for about $3,250 spent; actual spend is $2,102, about $1,148 behind. Catching up before Oct 7 means raising daily budgets soon rather than waiting.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#128269;</span>
+          <span><strong>Google's biggest limit right now is budget, not ranking.</strong> The ads only show for 10.9% of eligible searches, and budget is the reason for most of that missed share. A bigger daily budget on this campaign would likely bring in more of that traffic right away.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#128241;</span>
+          <span><strong>Most Meta leads never touch the website, and that's expected.</strong> Google Analytics shows only 54 sessions came from Meta ad clicks, but Meta reports 158 form submissions. Facebook and Instagram let people fill out the form without ever leaving the app, so GA4 can't see most of it. This isn't a tracking gap, it's just how in-app lead forms work.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#128197;</span>
+          <span><strong>Interest Form Submissions data is a few days old.</strong> That panel depends on a manual CSV export from Finalsite, and the last one is from Aug 21. Worth deciding together: pull a fresh export more often, or look into whether Finalsite can send data automatically.</span>
+        </div>
+      </div>
+    </section>
+
   </div>
 
   <footer class="notes">
     <p>
-      <strong>Enrollment Leads</strong> is planned to refresh every 6 hours, straight from Facebook Lead Ads, since new leads come in throughout the day. This is the fast-moving panel.
+      <strong>Enrollment Leads</strong> is planned to refresh every 6 hours, straight from Meta Lead Ads, since new leads come in throughout the day. This is the fast-moving panel.
     </p>
     <p>
-      <strong>Ad Spend &amp; Budget</strong> and <strong>Google Ads Performance</strong> now refresh weekly, every Sunday, pulled live from Google Ads and Meta by Claude and pushed to this page. Google and Meta only update their own numbers with a one-day lag anyway, so these two panels are current as of the most recent Sunday pull, not real-time.
+      <strong>Ad Spend &amp; Budget</strong> and <strong>Google Ads Performance</strong> are planned to refresh once a day, since Google and Meta only update their own numbers with a one-day lag anyway. Checking more often than that wastes calls for no new data.
     </p>
     <p>
-      <strong>Enrollment Leads</strong> is not on a live schedule yet, it still needs a direct Facebook Lead Ads connection Claude doesn't have access to. Treat that panel as a manual pull until it's connected.
+      Neither schedule is running on autopilot yet. This page is now hosted so it can be updated on a timer, but the timer itself isn't turned on. Until it is, treat every number on this page as a fresh manual pull, done by Claude at Cedric's request.
     </p>
     <p>
       <strong>Interest Form Submissions</strong> is not connected live yet. Finalsite does not have a direct link to this dashboard, so this panel updates only when Luminate exports a fresh CSV and republishes this page. The numbers above are from the export taken August 21, 2026.
