@@ -1,0 +1,113 @@
+aeMmNIiEzZxLb5NrsM28wDYzgcTep4gXfC0Mc3jwPCPl0bTNDdmXVtbD+JEOeD77rvME18xPOZ3H6iklBUwDY9hGwikGe/RGteCgcCrIlJIkbIxXwZQmSGElAUQiiaBiV46GgR8TMMeuMbWSq4Q/KVaVtwTYGtqJp5fPuqUkXz5gGfDtfhWh3LYzAMQRj6Y0PMk3z2RtgP/9uqUIRITJiUBSgqUCng44bvQ0ArO+VFoklBWgsmzDOlAmu/PKjJBrV2CSVmypcgAKjOEkLJgfLLi1HH9YuAaU4MSBNOEV0ycdC8DLx94i6i/5Sh1AmyQfLCZByAJ+QAcRSabNq8WBAzH+Bn2QPymfPM6JJOEshJQPn7Sjv/6UapMypKf+xWDygwhpGyAQM43wdEN/oP/mrw0gpBvwuuJAr1Pt6eHUOoEWK/5YDsPQFLyAUNGmN/iN224xovFAPHDy0efFIw04DfS4/zJA3GWlRuvaUc6X9pX/Jl1ZdTkhk/LDCGE5AHCHo0MPDjQ4OgCF2Ecw7l87qZBMU14xaRQk3ldxyTQbQzTuPNBHXYIKw9AXPkgZQvrCjx34E4dpOePeGThOOSNHgfixzGJH/8VBQbndMXGD3GVlRt32lFu6pRThigjKFQ7dvyo3m/euhVWxOdH6SvGZeqbEEJIgsGEUMyjQBhDM85BQogDLTOEEJJwYJ0wuegSQsahMkMIIQkG7uQdW54YFW8Sm/MMCCkXqMwQQkhKwJwGzAlRPwkhCo67EkJIghmfBDvu6gurjM1Jk4QQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghJFRmzPh/rjn91o3/ki4AAAAASUVORK5CYII=" alt="University Prep Schools">
+        <img class="logo logo-dark" src="data:image/png;base64,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" alt="University Prep Schools">
+      </div>
+      <div class="page-name">Enrollment Pulse</div>
+      <div class="sub">Live interest tracking, built by Luminate Agency</div>
+    </div>
+    <div class="asof">
+      <span class="live-chip"><span class="pulse"></span>Auto-refresh live</span>
+      <!-- ASOF_START -->
+      <div>Leads (hourly)<strong>Aug 23, 2026, 11:08 PM ET</strong></div>
+      <!-- ASOF_END -->
+      <!-- ASOF_DAILY_START -->
+      <div>Ad data (daily)<strong>Aug 23, 2026, 9:20 PM ET</strong></div>
+      <!-- ASOF_DAILY_END -->
+    </div>
+  </header>
+  <div class="stack">
+
+    <!-- DAILY_PANEL_START -->
+    <section class="card">
+      <div class="stripe"></div>
+      <div class="card-body">
+        <div class="card-head">
+          <h2>Ad Spend &amp; Budget</h2>
+          <div class="tag">Campaign-to-date, both platforms</div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat">
+            <div class="num">$2,102</div>
+            <div class="label">spent so far, Meta + Google</div>
+          </div>
+          <div class="stat">
+            <div class="num">$7,898</div>
+            <div class="label">left of the $10,000 budget</div>
+          </div>
+          <div class="stat">
+            <div class="num">21%</div>
+            <div class="label">of total budget used</div>
+          </div>
+          <div class="stat">
+            <div class="num">$10.89</div>
+            <div class="label">blended cost per lead</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="budget-bar"><div class="budget-bar-fill" style="width:21%;"></div></div>
+          <div class="budget-caption"><span><strong>$2,102.05</strong> spent</span><span><strong>$7,897.95</strong> remaining of $10,000</span></div>
+        </div>
+
+        <div class="split">
+          <div>
+            <h3>Meta (Facebook + Instagram)</h3>
+            <div class="bars">
+              <div class="bar-row"><span class="name">Spend</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--gold);"></span></span><span class="count">$1,667</span></div>
+              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:19%; background: var(--gold);"></span></span><span class="count">$17.62</span></div>
+              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:11%; background: var(--gold);"></span></span><span class="count">$1.12</span></div>
+              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:11%; background: var(--gold);"></span></span><span class="count">$10.55</span></div>
+            </div>
+          </div>
+          <div>
+            <h3>Google Search</h3>
+            <div class="bars">
+              <div class="bar-row"><span class="name">Spend</span><span class="bar-track"><span class="bar-fill" style="width:26%; background: var(--navy);"></span></span><span class="count">$436</span></div>
+              <div class="bar-row"><span class="name">CPM</span><span class="bar-track"><span class="bar-fill" style="width:100%; background: var(--navy);"></span></span><span class="count">$93.81</span></div>
+              <div class="bar-row"><span class="name">CPC</span><span class="bar-track"><span class="bar-fill" style="width:20%; background: var(--navy);"></span></span><span class="count">$2.02</span></div>
+              <div class="bar-row"><span class="name">Cost / lead</span><span class="bar-track"><span class="bar-fill" style="width:12%; background: var(--navy);"></span></span><span class="count">$12.44</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <span>&#128172;</span>
+          <span><strong>Quick translator, since these terms come up a lot:</strong> CPM is what it costs to put the ad in front of 1,000 people. CPC is what it costs each time someone clicks it. Neither one tells you if the campaign is working. Cost per lead is the number that matters, since it's what U Prep actually pays for each real family that reaches out.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#8505;</span>
+          <span>Meta drives 158 leads on $1,667 in spend (about $10.55 per lead). Google drives 35 form starts on $436, off two keywords, detailed in the Google Ads Performance section below. Meta is the cheaper channel per lead right now, but it's also spending nearly 4x more, so it's naturally producing more volume too.</span>
+        </div>
+
+        <div class="callout">
+          <span>&#9888;</span>
+          <span>The $10,000 budget is paced to spend fully by Oct 7 (Fall Count Day, the state funding deadline), not evenly. Through Aug 23, the pacing plan (from the official spend schedule) calls for about $3,250 spent; actual spend sits at $2,102, roughly $1,148 behind schedule. Both campaigns launched about 10 days later than the planned July 29 start, confirmed by each platform's own daily spend history: Meta's first real dollar was spent Aug 8, Google's Aug 11. That gap explains most of the shortfall.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="stripe navy"></div>
+      <div class="card-body">
+        <div class="card-head">
+          <h2>Google Ads Performance</h2>
+          <div class="tag">Search campaign, campaign-to-date</div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat">
+            <div class="num">216</div>
+            <div class="label">clicks, 4,643 impressions</div>
+          </div>
+          <div class="stat">
+            <div class="num">4.7%</div>
+            <div class="label">click-through rate</div>
+          </div>
+          <div class="stat">
+            <div class="num">35</div>
+            <div class="label">conversions (form starts)</div>
+          </div>
+          <div class="stat">
+            <div class="num">10.9%</div>
+            <div class="label">of e
